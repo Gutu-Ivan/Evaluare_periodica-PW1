@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ev periodica</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+ <input type="text" id="input__x">
+ <input type="text" id="input__y">
+ <input type="button" id="input__max" class="buttons" value="Max">
+ <input type="button" id="input__change" class="buttons" value="Change">
+<div id="result">The max value is:</div>
+<div id="container">Container</div>
+<p id="1" onmouseover="changeParagraphColor(this.id)">Paragraful NR 1</p>
+<p id="2" onmouseover="changeParagraphColor(this.id)">Paragraful NR 2</p>
+<p id="3" onmouseover="changeParagraphColor(this.id)">Paragraful NR 3</p>
+<p id="4" onmouseover="changeParagraphColor(this.id)">Paragraful NR 4</p>
+<p id="5" onmouseover="changeParagraphColor(this.id)">Paragraful NR 5</p>
+<p id="6" onmouseover="changeParagraphColor(this.id)">Paragraful NR 6</p>
+<p id="7" onmouseover="changeParagraphColor(this.id)">Paragraful NR 7</p>
+<p id="8" onmouseover="changeParagraphColor(this.id)">Paragraful NR 8</p>
+<p id="9" onmouseover="changeParagraphColor(this.id)">Paragraful NR 9</p>
+<p id="10" onmouseover="changeParagraphColor(this.id)">Paragraful NR 10</p>
+<ul id="debtors">Students debtors:</ul>
+<ul id="good_students">Good students: </ul>
+<ul id="numbers">Numbers: </ul>
+
+ <label for="counter">Counter: </label>
+ <input type="text" id="counter" value="0" readonly>
+ <input type="button" id="input__increase" value="Increase">
+
+<br>
+ <label for="cities">Choose a city:</label>
+ <select name="cities" id="cities">
+         <option value="balti">Balti</option>
+         <option value="chisinau">Chisinau</option>
+         <option value="cahul">Cahul</option>
+         <option value="orhei">Orhei</option>
+         <option value="drochia">Drochia</option>
+         <option value="soroca">Soroca</option>
+         <option value="ungheni">Ungheni</option>
+         <option value="straseni">Straseni</option>
+         <option value="tiraspol">Tiraspol</option>
+         <option value="comrat">Comrat</option>
+ </select>
+ <input type="submit" id="submit__form" value="Submit">
+ <div id="element"></div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

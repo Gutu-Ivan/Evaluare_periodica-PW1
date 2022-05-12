@@ -1,0 +1,28 @@
+* {
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+input {
+    display: list-item;
+    margin: 0 auto;
+}
+ul {
+    margin: 10px 0 10px 0;
+}
+p,div {
+    text-align: center;
+}
+.square {
+    background-color: purple;
+    margin-bottom: 2px;
+}
+.buttons {
+    width: 50px;
+    margin: 0 auto;
+}
+
+#input__max, #input__change {
+    display: inline-block;
+    width: 60px;
+    margin: 0 auto;
+}
